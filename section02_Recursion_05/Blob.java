@@ -1,6 +1,6 @@
 package section02_Recursion_05;
 
-public class Maze {
+public class Blob {
 	private static int N=8;
 	private static int[][] image = {
 			{1,0,0,0,0,0,0,1},
