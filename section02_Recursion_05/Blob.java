@@ -1,3 +1,6 @@
+/**
+ * Counting Cells in a Blob
+ */
 package section02_Recursion_05;
 
 public class Blob {

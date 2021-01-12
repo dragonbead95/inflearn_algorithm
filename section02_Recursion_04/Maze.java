@@ -1,3 +1,7 @@
+/**
+ * 미로찾기
+ */
+
 package section02_Recursion_04;
 
 public class Maze {

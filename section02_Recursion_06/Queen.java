@@ -1,3 +1,6 @@
+/**
+ * n queens problem
+ */
 package section02_Recursion_06;
 
 public class Queen {
