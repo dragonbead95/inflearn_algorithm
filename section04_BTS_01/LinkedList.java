@@ -1,8 +1,8 @@
-package section04_Sort_01;
+package section04_BTS_01;
 
 public class LinkedList {
 	/* head nof of link list */
-	static LNode head;
+	public static LNode head;
 	
 	/* Link list Node */
 	class LNode
@@ -34,7 +34,7 @@ public class LinkedList {
 	
 	/*This function counts the number of nodes in Linked List
 	 * and then calss sortedListToBSTRecur() to construct BST */
-	TNode sortedListToBST()
+	public TNode sortedListToBST()
 	{
 		/*Count the number of nodes in Linked List */
 		int n = countNodes(head);
@@ -93,7 +93,7 @@ public class LinkedList {
 	
 	/* Function to insert a node at the beginging of
 	 * the Doubly Linked List */
-	void push(int new_data)
+	public void push(int new_data)
 	{
 		/* allocate node */
 		LNode new_node = new LNode(new_data);
@@ -116,7 +116,7 @@ public class LinkedList {
 	}
 	
 	/* Function to print nodes in a given linked list */
-    void printList(LNode node)  
+    public void printList(LNode node)  
     { 
         while (node != null)  
         { 

@@ -164,10 +164,10 @@ public class Main {
 	public static void sort7()
 	{
 		Fruit[] fruits = new Fruit[4];
-		fruits[0] = new Fruit("pineapple", 70);
-		fruits[1] = new Fruit("Apple", 100);
-		fruits[2] = new Fruit("Orange", 80);
-		fruits[3] = new Fruit("Banana", 90);
+//		fruits[0] = new Fruit("pineapple", 70);
+//		fruits[1] = new Fruit("Apple", 100);
+//		fruits[2] = new Fruit("Orange", 80);
+//		fruits[3] = new Fruit("Banana", 90);
 		
 		Comparator<Fruit> nameComparator = new Comparator<Fruit>() {
 			

@@ -1,8 +1,8 @@
-package section04_Sort_01;
+package section04_BTS_01;
 
 
-import section04_Sort_01.LinkedList;
-import section04_Sort_01.LinkedList.TNode; 
+import section04_BTS_01.LinkedList;
+import section04_BTS_01.LinkedList.TNode; 
 public class Main {
 
 	public static void main(String[] args) {
