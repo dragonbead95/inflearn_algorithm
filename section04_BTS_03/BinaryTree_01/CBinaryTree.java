@@ -1,6 +1,6 @@
-package section04_BTS_03;
+package section04_BTS_03.BinaryTree_01;
 
-import section04_BTS_03.BinaryTree.BTreeNode;
+import section04_BTS_03.BinaryTree_01.BinaryTree.BTreeNode;
 
 public class CBinaryTree implements BinaryTree{
 

@@ -1,8 +1,8 @@
-package section04_BTS_03;
+package section04_BTS_03.BinaryTree_01;
 
-import section04_BTS_03.BinaryTree.BTreeNode;
+import section04_BTS_03.BinaryTree_01.BinaryTree.BTreeNode;
 
-public class Main {
+public class BinaryTreeMain {
 
 	public static void main(String[] args) {
 		CBinaryTree c = new CBinaryTree();

@@ -1,6 +1,7 @@
-package section04_BTS_03;
+package section04_BTS_03.BinarySearchTree_02;
 
-public interface BinaryTree {
+public interface BinarySearchTree{
+	
 	public class BTreeNode{
 		int data;
 		BTreeNode left;
@@ -20,4 +21,16 @@ public interface BinaryTree {
 	public void PreorderTraverse(BTreeNode bt);
 	public void InorderTraverse(BTreeNode bt);
 	public void PostorderTraverse(BTreeNode bt);
+	
+	// BST의 생성 및 초기화
+	public void BSTMakeAndInit(BTreeNode pRoot);
+	
+	// 노드에 저장된 데이터 반환
+	public int BSTGetNodeData(BTreeNode bst);
+	
+	// BST를 대상으로 데이터 저장(노드의 생성과정 포함)
+	public BTreeNode BSTInsert(BTreeNode pRoot, int data);
+	
+	// BST를 대상으로 데이터 탐색
+	public BTreeNode BSTSearch(BTreeNode bst, int target);
 }
